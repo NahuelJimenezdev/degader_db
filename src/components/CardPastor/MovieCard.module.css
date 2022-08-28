@@ -1,0 +1,46 @@
+.movie__card {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .2s;
+    text-decoration: none;
+    list-style: none;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+.movie__card__img {
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.movie__nombre {
+    padding: 10px;
+    /* color: rgb(102, 153, 51); */
+    color: #4270a9;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.movie__cargo {
+    padding: 10px;
+    /* color: rgb(102, 153, 51); */
+    color: #4270a9;
+    font-size: .8em;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 560px ) {
+    .movie__card__img {
+        width: 100%;
+        height: auto;
+    }
+    .movie__nombre {
+        padding: 10px;
+        /* color: rgb(102, 153, 51); */
+        color: #4270a9;
+        font-size: 1.5em;
+    }
+}
